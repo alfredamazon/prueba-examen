@@ -1,0 +1,10 @@
+{
+
+    "/http://localhost:8081/api/clientes/*":
+    {
+        
+        "target": "http://localhost:8080/api/clientes/",
+        "secure": false,
+        "changeOrigin": true
+    }
+}
